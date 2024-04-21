@@ -1,4 +1,4 @@
-import stremlit as st
+import streamlit as st
 st.write('find max of 3 given numbers')
 
 number1 = float(input("Enter the first number: "))
