@@ -7,5 +7,5 @@ number3 = st.number_input("Enter the third number: ")
 
 st.write("You entered:", number1, number2, number3)
 
-largest_number = st.max(number1, number2, number3)
+largest_number = max(number1, number2, number3)
 st.write("The largest number is:", largest_number)
